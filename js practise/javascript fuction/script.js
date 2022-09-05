@@ -43,7 +43,7 @@
 
 // }
 
-//scope function example
+//SCOPE FUNCTION EXAMPLE 
 
 var num=8; 
 //first step i have declare variable num and give a value to it 8. 
@@ -55,7 +55,7 @@ function doMath(){
     
     if(num%5==0) 
     {
-    //in this step we are modulus of 5==0  10 divide by 5 so reminder is 0 so condition is true  
+    //in this step we are taking 10 modulus of 5==0  10 divide by 5 so reminder is 0 so condition is true  
         return true;
     //it will return true .
     }
@@ -67,7 +67,20 @@ function doMath(){
 
 //secondly it will come to this step and on value to num 8+1=9.
 doMath();
-//third step it will run this function domath().
+//third step it will run this function doMath().
+//every function have its own scope and its not share the data to each other ..
+
+//HIGH ORDER FUNCTION
+
+function hello(){
+
+    console.log("hello world");;
+} 
+setInterval(hello,1000);
+// setInterval is type high ORDER function here it will get hell0 function is an argument 
+//and repeat hello() function data every 1sec . setInterval is two argument one you are 
+//calling function is argument and other is 1000 millisecond .
+
 
 
 
