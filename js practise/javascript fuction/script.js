@@ -43,3 +43,31 @@
 
 // }
 
+//scope function example
+
+var num=8; 
+//first step i have declare variable num and give a value to it 8. 
+//so if you see in the bottom i have add one value to num 
+function doMath(){
+    //fourth step it will add one more value to num and second step we have seen that 8 become 9 
+    //now add one more value it will become a 10
+    num+=1; 
+    
+    if(num%5==0) 
+    {
+    //in this step we are modulus of 5==0  10 divide by 5 so reminder is 0 so condition is true  
+        return true;
+    //it will return true .
+    }
+    else
+    {
+        return false
+    }
+}
+
+//secondly it will come to this step and on value to num 8+1=9.
+doMath();
+//third step it will run this function domath().
+
+
+
