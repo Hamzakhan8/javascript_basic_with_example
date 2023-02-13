@@ -33,7 +33,7 @@ var color=['red','blue','green'];
 var color=['red','blue','green'];
     color.shift(); //output will be like this ['white','red','blue','green']
 
-// INDEXOF FUNCTION TO FIND THE INDEX OF AN ITEM IN AN ARRAY
+// index of FUNCTION TO FIND THE INDEX OF AN ITEM IN AN ARRAY
 // example of indexof() 
 
 var color=['red','blue','green'];
